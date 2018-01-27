@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: MgOKeEW/aAgN/D6a+gwR6Es1eSmIfwr3p/AdNnsjxu4kpx58cw3t7oNIxo1WNv94JS+FrBcNo0cDIMq7WtDa2FiGtjwF622yyirGQm7YfvseA9INyGRviQSFrxf1Hl06mDJGVIgav8E/fhpHQivZi+vbF2Tl2fztOIkMGCZS8sISIA1w2474czJ4A0p8e5l7ADQ6VrxhmQdAldiwv7ZZzPhC92zZG2+9+C+OlLigAyncPmSw47h/KsKPXTYCeiGSi33Ska6YXQyc/sMYNRE7iaAb9yukNZV5gO5315wQLe4lg2QHmAemAWPjNTTRnesbtDSXll9BvBr1/kBpi0jUbWs30F4x9NKVX4auk2oaAmZdL8NITV/aN1PkhYRwczpz+6p/2XWKd0QKBjMuuT+8AmQSOyJVPUCT2Jy0vRcsEWpwPRjddNGLmKfURglzQJWbzb0lDRKKe4FqkuqzGEAKT3TRxtEwJxp7pJqZZ6/sfvbFYZgZOtjSPv1Fb4N737d7KsuGo17lvryymfX+9EEzjrUsZ23JNFjJMlPURkJnjCRxIGsv/bo6Jm/xf3t/brGqW7PopvPIcJPsS+ucbG0vFMVMbXMCe4zILh/1rJMv5Y9M5zGvoGF7hfJsVixTUyUZZeLjVDZEoUWE+XugSkvNoAUgoCu43j1Xhtn2WslsfLs=
+  app: powerful-journey-94628
+  on:
+    repo: kaseyllabelle/node-shopping-list-integration-tests
